@@ -1,0 +1,28 @@
+﻿@section styles {
+   
+}
+
+@section script {
+    <script type="text/javascript" src="~/home.js"></script>
+}
+
+<section id="app" class="landing-page">
+    <div class="content-bg-wrap">
+        <div class="content-bg"></div>
+    </div>
+    <candorism-header></candorism-header>
+    <div class="header-spacer--standard"></div>
+    <div class="container">
+        <div class="row display-flex">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="landing-content">
+                    {{message}}
+                    <a href="#" class="btn btn-md btn-border c-white" v-on:click.stop.prevent="click">Register Now!</a>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <candorism-login></candorism-login>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,75 @@
+﻿[
+  {
+    "outputFileName":"wwwroot/bootstrap.all.min.css",
+    "inputFiles":[
+      "src/bootstrap/css/bootstrap-grid.css",
+      "src/bootstrap/css/bootstrap-reboot.css"
+    ],
+    "minify":{
+      "enabled": true,
+      "renameLocals":true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/jquery.min.js",
+    "inputFiles": [
+      "src/js/jquery-3.2.1.js",
+      "src/js/jquery.appear.js",
+      "src/js/jquery.appear-init.js",
+      "src/js/jquery.magnific-popup.js",
+      "src/js/jquery.gifplayer.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/bootstrap.all.min.js",
+    "inputFiles":[
+      "src/Bootstrap/dist/js/bootstrap.js",
+      "src/js/bootstrap-components-init.js",
+      "src/js/bootstrap-select.js"
+    ],
+
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "OutputFileName": "wwwroot/others.min.js",
+    "inputFiles": [
+      "src/js/ajax-pagination.js",
+      "src/js/moment.js",
+      "src/js/chart.js",
+      "src/js/chartjs-plugin-deferred.js",
+      "src/js/circle-progress.js",
+      "src/js/daterangepicker.js",
+      "src/js/form-validation-init.js",
+      "src/js/fullcalendar.js",
+      "src/js/handlebars.runtime.js",
+      "src/js/headroom-init.js",
+      "src/js/Headroom.js",
+      "src/js/imagesloaded.pkgd.js",
+      "src/js/loader.js",
+      "src/js/run-chart.js",
+      "src/js/mediaelement-and-player.js"
+    ],
+    "minify":{
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "OutputFileName": "wwwroot/fontawesome-all.min.js",
+    "inputFiles": [
+     "src/fonts/fontawesome-all.js"
+    ],
+    "minify":{
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]
