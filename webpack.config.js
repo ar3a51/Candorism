@@ -5,8 +5,8 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const webpack = require("webpack");
 
 module.exports = {
-    watch: true,
-    mode:"development",
+    watch: false,
+    mode:"production",
     entry: {
         shell:"./src/app/shell.js",
         home: "./src/app/home/index.js",

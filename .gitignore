@@ -1,0 +1,9 @@
+wwwroot
+node_modules
+bin
+obj
+bin/Debug/netcoreapp2.0/Candorism.dll
+bin/Debug/netcoreapp2.0/Candorism.dll
+*.dll
+*.dll
+bin/Debug/netcoreapp2.0/Candorism.dll
