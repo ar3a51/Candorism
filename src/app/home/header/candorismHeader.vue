@@ -90,7 +90,7 @@
                                     <svg class ="olymp-close-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-close-icon"></use></svg>
                                 </a>
                             </li>
-                            <li class ="shoping-cart more">
+                            <!--<li class ="shoping-cart more">
                                 <a href="#" class ="nav-link">
                                     <svg class ="olymp-shopping-bag-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-shopping-bag-icon"></use></svg>
                                     <span class ="count-product">2</span>
@@ -164,7 +164,7 @@
                                         <a href="#" class ="btn btn-purple btn-sm">Go to Checkout</a>
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                 </div>
