@@ -1,6 +1,6 @@
-wwwroot
-node_modules
-bin
-obj
+wwwroot/
+node_modules/
+bin/
+obj/
 *.dll
 
