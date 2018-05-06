@@ -911,16 +911,12 @@
 				</div>
 			</div>
 
-			<div class="ui-block">
-				<div class="ui-block-title">
-					<h6 class="title">James’s Badges</h6>
-				</div>
-				<div class="ui-block-content">
-
-					<!-- W-Badges -->
-					
-					<ul class="widget w-badges">
-						<li>
+			<candorism-block>
+				<span slot="title">
+					James’s Badges
+				</span>
+				<ul class="widget w-badges">
+					<li>
 							<a href="24-CommunityBadges.html">
 								<img src="img/badge1.png" alt="author">
 								<div class="label-avatar bg-primary">2</div>
@@ -973,20 +969,12 @@
 								<img src="img/badge12.png" alt="author">
 							</a>
 						</li>
-					</ul>
-					
-					<!--.. end W-Badges -->
-				</div>
-			</div>
+				</ul>
+			</candorism-block>
 
-			<div class="ui-block">
-				<div class="ui-block-title">
-					<h6 class="title">My Spotify Playlist</h6>
-				</div>
-
-				<!-- W-Playlist -->
-				
-				<ol class="widget w-playlist">
+			<candorism-block>
+				<span slot="title">My Spotify Playlist</span>
+					<ol class="widget w-playlist">
 					<li class="js-open-popup" data-popup-target=".playlist-popup">
 						<div class="playlist-thumb">
 							<img src="img/playlist6.jpg" alt="thumb-composition">
@@ -1159,9 +1147,7 @@
 				
 					</li>
 				</ol>
-				
-				<!-- .. end W-Playlist -->
-			</div>
+			</candorism-block>
 
 			<div class="ui-block">
 				<div class="ui-block-title">
@@ -1265,7 +1251,7 @@
 				</div>
 			</div>
 		</div>
-				<div class="col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-12 col-xs-12">
+		<div class="col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-12 col-xs-12">
 			<div class="ui-block">
 				<div class="ui-block-title">
 					<h6 class="title">Last Photos</h6>
