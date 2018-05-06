@@ -11,10 +11,15 @@ import UpdatePhotoComponent from './components/update-photo.vue';
 const chooseMyPhotoComponent = () => import("./components/choose-my-photo.vue");
 const chatComponent = () => import("./components/chat.vue");
 
-const newsfeedComponent = () => import(/*webpackChunkName: newsfeed*/ "./components/newsfeed/newsfeed.vue");
-const profileComponent = () => import(/*webpackChunkName: profile*/ "./components/profile/profile.vue");
+const newsfeedComponent = () => import(/*webpackChunkName: newsfeed*/ "./newsfeed/newsfeed.vue");
+const profileComponent = () => import(/*webpackChunkName: profile*/ "./profile/profile.vue");
+const postShell = () => import (/*webpackChunkName: postShell*/ "./shared/components/post-shell.vue");
+const postForm = () => import (/*webpackChunkName: postForm*/ "./shared/components/post-form.vue");
 
 Vue.use(VueRouter);
+
+Vue.component("candorism-post", postShell);
+Vue.component("candorism-post-form", postForm);
 
 const routes = [
     {path: '/', component: newsfeedComponent},

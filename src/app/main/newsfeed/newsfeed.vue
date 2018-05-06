@@ -1138,14 +1138,10 @@
 </template>
 <script>
 import Vue from "vue";
-const postForm = () => import(/*webpackChunkName: "postForm"*/ "../shared/post-form.vue");
-const postShell = () => import(/*webpackChunkName: "postShell"*/ "../shared/post-shell.vue");
+
 
 export default Vue.extend({
- components:{
-     "candorism-post-form": postForm,
-     "candorism-post": postShell,
- },
+
 })
 </script>
 <style lang="sass" scoped>
